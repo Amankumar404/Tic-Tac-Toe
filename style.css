@@ -1,0 +1,123 @@
+* {
+    margin : 0px;
+    padding : 0px;
+}
+
+#aman {
+    height : 10 vmin;
+    border : 2px solid #0E0E52;
+    color : #3B28CC;
+    font-weight : 450;
+    font-size : 1.3rem;
+    
+}
+
+body {
+    background-color : black;
+    text-align : center;
+    color : white;
+    font-style : Times, Aerial;
+    background-color : #87BFFF;
+
+.show {
+    height : 180vmin;
+    width : 100%;
+    display : flex;
+    justify-content : center;
+    align-items : center;  
+    gap : 5vmin;  
+}
+
+.hide {
+    display : none;
+}
+#msg {
+  font-size : 6vmin;
+  color : #2667FF; 
+}
+
+.newGame {
+    height : 9vmin;
+    width : 40vmin;
+    font-size : 5vmin;
+    border : 0.5vmin solid black;
+    border-bottom : 1vmin solid black;
+    border-left : 1vmin solid black;
+    border-radius : 5vmin;
+    background-color : #ADD7F6;
+    color : #2667FF;
+    box-shadow: 10px 5px 10px ;
+    
+}
+
+#heading {
+    font-size : 8vmin;
+    color : #2667FF;
+    padding-top: 8vmin;
+    text-shadow: 2px 1px 2px ;
+}
+
+#container {
+    height : 90vmin;
+    display : flex;
+    align-items : center;
+    justify-content : center;  
+}
+
+#game {
+    height : 60vmin;
+    width : 60vmin;
+    color : #2667FF;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    flex-wrap : wrap;
+    gap : 2vmin;
+}
+
+.box {
+    height : 18vmin;
+    width : 18vmin;
+    background-color : #3F8EFC;
+    border : none;
+    border-radius : 2vmin;
+    box-shadow: 1.5vmin 5px 5px #0E0E52;
+    font-size : 15vmin;
+    color : #0E0E52;
+}
+
+#controls {
+    height : 10vmin;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+}
+
+.resetBtn {
+    height : 9vmin;
+    width : 40vmin;
+    font-size : 5vmin;
+    border : 0.5vmin solid black;
+    border-bottom : 1vmin solid black;
+    border-left : 1vmin solid black;
+    border-radius : 5vmin;
+    background-color : #ADD7F6;
+    color : #2667FF;
+    box-shadow: 10px 5px 10px ;
+
+.redX {
+    color: red;
+}
+
+#undo {
+    height : 9vmin;
+    width : 40vmin;
+    font-size : 5vmin;
+    border : 0.5vmin solid black;
+    border-bottom : 1vmin solid black;
+    border-left : 1vmin solid black;
+    border-radius : 5vmin;
+    background-color : #449aa1;
+    color : #2667FF;
+    box-shadow: 10px 5px 10px ;
+}
